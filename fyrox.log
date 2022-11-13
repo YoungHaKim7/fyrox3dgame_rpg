@@ -1,0 +1,439 @@
+[INFO]: Supported GL Extensions: {"GL_APPLE_rgb_422", "GL_ARB_transform_feedback2", "GL_ARB_ES2_compatibility", "GL_ARB_transform_feedback3", "GL_APPLE_texture_range", "GL_ARB_sampler_objects", "GL_ARB_tessellation_shader", "GL_EXT_texture_sRGB_decode", "GL_ARB_timer_query", "GL_ARB_texture_query_lod", "GL_ARB_texture_rgb10_a2ui", "GL_ARB_vertex_type_2_10_10_10_rev", "GL_ARB_shader_subroutine", "GL_ARB_shading_language_include", "GL_ARB_draw_indirect", "GL_APPLE_client_storage", "GL_ARB_shader_bit_encoding", "GL_APPLE_flush_render", "GL_ARB_texture_storage", "GL_APPLE_container_object_shareable", "GL_ARB_viewport_array", "GL_EXT_debug_label", "GL_EXT_texture_compression_s3tc", "GL_ARB_gpu_shader5", "GL_ARB_blend_func_extended", "GL_ARB_instanced_arrays", "GL_ARB_explicit_attrib_location", "GL_EXT_debug_marker", "GL_NV_texture_barrier", "GL_ARB_draw_buffers_blend", "GL_EXT_texture_filter_anisotropic", "GL_ARB_occlusion_query2", "GL_ARB_texture_gather", "GL_ARB_gpu_shader_fp64", "GL_ARB_separate_shader_objects", "GL_ARB_texture_cube_map_array", "GL_ARB_texture_swizzle", "GL_APPLE_row_bytes", "GL_ARB_sample_shading", "GL_ARB_texture_buffer_object_rgb32", "GL_EXT_framebuffer_multisample_blit_scaled", "GL_ARB_internalformat_query", "GL_ARB_vertex_attrib_64bit"}
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader SpotLightShader_VertexShader compiled successfully!
+[INFO]: Shader SpotLightShader_FragmentShader compiled successfully!
+[INFO]: Shader SpotLightShader linked successfully!
+[INFO]: Shader PointLightShader_VertexShader compiled successfully!
+[INFO]: Shader PointLightShader_FragmentShader compiled successfully!
+[INFO]: Shader PointLightShader linked successfully!
+[INFO]: Shader DirectionalLightShader_VertexShader compiled successfully!
+[INFO]: Shader DirectionalLightShader_FragmentShader compiled successfully!
+[INFO]: Shader DirectionalLightShader linked successfully!
+[INFO]: Shader AmbientLightShader_VertexShader compiled successfully!
+[INFO]: Shader AmbientLightShader_FragmentShader compiled successfully!
+[INFO]: Shader AmbientLightShader linked successfully!
+[INFO]: Shader FlatShader_VertexShader compiled successfully!
+[INFO]: Shader FlatShader_FragmentShader compiled successfully!
+[INFO]: Shader FlatShader linked successfully!
+[INFO]: Shader SkyboxShader_VertexShader compiled successfully!
+[INFO]: Shader SkyboxShader_FragmentShader compiled successfully!
+[INFO]: Shader SkyboxShader linked successfully!
+[INFO]: Shader SpotVolumetricLight_VertexShader compiled successfully!
+[INFO]: Shader SpotVolumetricLight_FragmentShader compiled successfully!
+[INFO]: Shader SpotVolumetricLight linked successfully!
+[INFO]: Shader PointVolumetricLight_VertexShader compiled successfully!
+[INFO]: Shader PointVolumetricLight_FragmentShader compiled successfully!
+[INFO]: Shader PointVolumetricLight linked successfully!
+[INFO]: Shader FlatShader_VertexShader compiled successfully!
+[INFO]: Shader FlatShader_FragmentShader compiled successfully!
+[INFO]: Shader FlatShader linked successfully!
+[INFO]: Shader FlatShader_VertexShader compiled successfully!
+[INFO]: Shader FlatShader_FragmentShader compiled successfully!
+[INFO]: Shader FlatShader linked successfully!
+[INFO]: Shader SpriteShader_VertexShader compiled successfully!
+[INFO]: Shader SpriteShader_FragmentShader compiled successfully!
+[INFO]: Shader SpriteShader linked successfully!
+[INFO]: Shader UIShader_VertexShader compiled successfully!
+[INFO]: Shader UIShader_FragmentShader compiled successfully!
+[INFO]: Shader UIShader linked successfully!
+[INFO]: Shader ParticleSystemShader_VertexShader compiled successfully!
+[INFO]: Shader ParticleSystemShader_FragmentShader compiled successfully!
+[INFO]: Shader ParticleSystemShader linked successfully!
+[INFO]: Shader DebugShader_VertexShader compiled successfully!
+[INFO]: Shader DebugShader_FragmentShader compiled successfully!
+[INFO]: Shader DebugShader linked successfully!
+[INFO]: Shader FXAAShader_VertexShader compiled successfully!
+[INFO]: Shader FXAAShader_FragmentShader compiled successfully!
+[INFO]: Shader FXAAShader linked successfully!
+[INFO]: Shader RectangleShader_VertexShader compiled successfully!
+[INFO]: Shader RectangleShader_FragmentShader compiled successfully!
+[INFO]: Shader RectangleShader linked successfully!
+[INFO]: Unable to load options file data/models/paladin/paladin.fbx.options for data/models/paladin/paladin.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Trying to load "data/models/paladin/paladin.fbx"
+[INFO]: Unable to load options file data/models/paladin/Paladin_specular.jpg.options for data/models/paladin/Paladin_specular.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/paladin/Paladin_diffuse.jpg.options for data/models/paladin/Paladin_diffuse.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: FBX "data/models/paladin/paladin.fbx" loaded in 1775 ms
+	- Parsing - 1225 ms
+	- DOM Prepare - 10 ms
+	- Conversion - 539 ms
+[INFO]: Model "data/models/paladin/paladin.fbx" is loaded!
+[INFO]: Unable to load options file data/models/paladin/walk.fbx.options for data/models/paladin/walk.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/paladin/idle.fbx.options for data/models/paladin/idle.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Trying to load "data/models/paladin/idle.fbx"
+[INFO]: Trying to load "data/models/paladin/walk.fbx"
+[INFO]: FBX "data/models/paladin/walk.fbx" loaded in 43 ms
+	- Parsing - 20 ms
+	- DOM Prepare - 3 ms
+	- Conversion - 19 ms
+[INFO]: Model "data/models/paladin/walk.fbx" is loaded!
+[INFO]: FBX "data/models/paladin/idle.fbx" loaded in 1084 ms
+	- Parsing - 409 ms
+	- DOM Prepare - 7 ms
+	- Conversion - 667 ms
+[INFO]: Model "data/models/paladin/idle.fbx" is loaded!
+[INFO]: Texture "data/textures/skybox/right.jpg" is loaded in 2.5710615s!
+[INFO]: Texture "data/textures/skybox/left.jpg" is loaded in 2.575202208s!
+[INFO]: Texture "data/textures/skybox/down.jpg" is loaded in 2.576542875s!
+[INFO]: Texture "data/textures/skybox/up.jpg" is loaded in 2.593200125s!
+[INFO]: Texture "data/textures/skybox/front.jpg" is loaded in 2.627560875s!
+[INFO]: Texture "data/textures/skybox/back.jpg" is loaded in 2.655902958s!
+[INFO]: Unable to load options file data/levels/level.rgs.options for data/levels/level.rgs resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/bush/bush.fbx.options for data/models/bush/bush.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/wood_cabin/WoodenCabinFbx.fbx.options for data/models/wood_cabin/WoodenCabinFbx.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/barrel/barrel.fbx.options for data/models/barrel/barrel.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/tree.fbx.options for data/models/tree.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Trying to load "data/models/bush/bush.fbx"
+[INFO]: Trying to load "data/models/wood_cabin/WoodenCabinFbx.fbx"
+[INFO]: Unable to load options file data/models/campfire/Campfire.fbx.options for data/models/campfire/Campfire.fbx resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Trying to load "data/models/barrel/barrel.fbx"
+[INFO]: Trying to load "data/models/campfire/Campfire.fbx"
+[INFO]: Trying to load "data/models/tree.fbx"
+[INFO]: FBX "data/models/bush/bush.fbx" loaded in 8 ms
+	- Parsing - 4 ms
+	- DOM Prepare - 0 ms
+	- Conversion - 3 ms
+[INFO]: Model "data/models/bush/bush.fbx" is loaded!
+[INFO]: Unable to load options file data/models/bush/bush01.png.options for data/models/bush/bush01.png resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/models/barrel/wood_3.jpg.options for data/models/barrel/wood_3.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: FBX "data/models/barrel/barrel.fbx" loaded in 52 ms
+	- Parsing - 21 ms
+	- DOM Prepare - 2 ms
+	- Conversion - 28 ms
+[INFO]: Model "data/models/barrel/barrel.fbx" is loaded!
+[INFO]: Unable to load options file data/models/barrel/metal.jpg.options for data/models/barrel/metal.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: FBX "data/models/wood_cabin/WoodenCabinFbx.fbx" loaded in 177 ms
+	- Parsing - 64 ms
+	- DOM Prepare - 1 ms
+	- Conversion - 110 ms
+[INFO]: Model "data/models/wood_cabin/WoodenCabinFbx.fbx" is loaded!
+[INFO]: Unable to load options file data/models/wood_cabin/WoodCabinDif.jpg.options for data/models/wood_cabin/WoodCabinDif.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: FBX "data/models/campfire/Campfire.fbx" loaded in 193 ms
+	- Parsing - 83 ms
+	- DOM Prepare - 1 ms
+	- Conversion - 109 ms
+[INFO]: Model "data/models/campfire/Campfire.fbx" is loaded!
+[INFO]: Unable to load options file data/models/campfire/Campfire_MAT_BaseColor_00.jpg.options for data/models/campfire/Campfire_MAT_BaseColor_00.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Texture "data/models/barrel/metal.jpg" is loaded in 200.334791ms!
+[INFO]: Unable to load options file data/models/campfire/Campfire_MAT_Metallic.jpg.options for data/models/campfire/Campfire_MAT_Metallic.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Texture "data/models/bush/bush01.png" is loaded in 248.541ms!
+[INFO]: Texture "data/models/barrel/wood_3.jpg" is loaded in 827.514ms!
+[INFO]: Texture "data/models/campfire/Campfire_MAT_Metallic.jpg" is loaded in 2.100308291s!
+[INFO]: Texture "data/models/campfire/Campfire_MAT_BaseColor_00.jpg" is loaded in 2.249955208s!
+[INFO]: Texture "data/models/paladin/Paladin_diffuse.jpg" is loaded in 9.029812791s!
+[INFO]: Texture "data/models/paladin/Paladin_specular.jpg" is loaded in 9.201386916s!
+[INFO]: Texture "data/models/wood_cabin/WoodCabinDif.jpg" is loaded in 8.414833333s!
+[INFO]: Unable to load options file data/models/Bark_DiffuseColor.jpg.options for data/models/Bark_DiffuseColor.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Texture "data/models/Bark_DiffuseColor.jpg" is loaded in 946.542833ms!
+[INFO]: Unable to load options file data/models/Leaves_DiffuseColor.png.options for data/models/Leaves_DiffuseColor.png resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: FBX "data/models/tree.fbx" loaded in 14516 ms
+	- Parsing - 5858 ms
+	- DOM Prepare - 92 ms
+	- Conversion - 8565 ms
+[INFO]: Model "data/models/tree.fbx" is loaded!
+[INFO]: Unable to load options file data/textures/Grass_DiffuseColor.jpg.options for data/textures/Grass_DiffuseColor.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/textures/Grass2_DiffuseColor.jpg.options for data/textures/Grass2_DiffuseColor.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/textures/Soil_DiffuseColor.jpg.options for data/textures/Soil_DiffuseColor.jpg resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Unable to load options file data/textures/smoke_04.tga.options for data/textures/smoke_04.tga resource, fallback to defaults! Reason: Io(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+[INFO]: Starting resolve...
+[INFO]: Resolving graph...
+[INFO]: Original handles resolved!
+[INFO]: Checking integrity...
+[INFO]: Integrity restored for 27 instances! 0 new nodes were added!
+[INFO]: Graph resolved successfully!
+[INFO]: Resolving animations...
+[INFO]: Animations resolved successfully!
+[INFO]: Resolve succeeded!
+[INFO]: Model "data/levels/level.rgs" is loaded!
+[INFO]: Texture "data/textures/smoke_04.tga" is loaded in 554.57225ms!
+[INFO]: Texture "data/models/Leaves_DiffuseColor.png" is loaded in 1.887066583s!
+[INFO]: Texture "data/textures/Grass_DiffuseColor.jpg" is loaded in 2.098168541s!
+[INFO]: Texture "data/textures/Soil_DiffuseColor.jpg" is loaded in 2.124447291s!
+[INFO]: Texture "data/textures/Grass2_DiffuseColor.jpg" is loaded in 2.155748208s!
+[INFO]: A new associated scene rendering data was created for scene 0:1!
+[INFO]: Shader DecalShader_VertexShader compiled successfully!
+[INFO]: Shader DecalShader_FragmentShader compiled successfully!
+[INFO]: Shader DecalShader linked successfully!
+[INFO]: Shader AdaptationShader_VertexShader compiled successfully!
+[INFO]: Shader AdaptationShader_FragmentShader compiled successfully!
+[INFO]: Shader AdaptationShader linked successfully!
+Additional info: WARNING: Output of vertex shader 'texCoord' not read by fragment shader
+
+[INFO]: Shader LuminanceShader_VertexShader compiled successfully!
+[INFO]: Shader LuminanceShader_FragmentShader compiled successfully!
+[INFO]: Shader LuminanceShader linked successfully!
+[INFO]: Shader DownscaleShader_VertexShader compiled successfully!
+[INFO]: Shader DownscaleShader_FragmentShader compiled successfully!
+[INFO]: Shader DownscaleShader linked successfully!
+[INFO]: Shader HdrToLdrShader_VertexShader compiled successfully!
+[INFO]: Shader HdrToLdrShader_FragmentShader compiled successfully!
+[INFO]: Shader HdrToLdrShader linked successfully!
+[INFO]: Shader BloomShader_VertexShader compiled successfully!
+[INFO]: Shader BloomShader_FragmentShader compiled successfully!
+[INFO]: Shader BloomShader linked successfully!
+[INFO]: Shader GaussianBlurShader_VertexShader compiled successfully!
+[INFO]: Shader GaussianBlurShader_FragmentShader compiled successfully!
+[INFO]: Shader GaussianBlurShader linked successfully!
+[INFO]: Shader StandardTerrainShader_GBuffer_VertexShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_GBuffer_FragmentShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_GBuffer linked successfully!
+[INFO]: Shader StandardTerrainShader_Forward_VertexShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_Forward_FragmentShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_Forward linked successfully!
+[INFO]: Shader StandardTerrainShader_SpotShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_SpotShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_SpotShadow linked successfully!
+[INFO]: Shader StandardTerrainShader_DirectionalShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_DirectionalShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_DirectionalShadow linked successfully!
+[INFO]: Shader StandardTerrainShader_PointShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_PointShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardTerrainShader_PointShadow linked successfully!
+[INFO]: Shader StandardShader_GBuffer_VertexShader compiled successfully!
+[INFO]: Shader StandardShader_GBuffer_FragmentShader compiled successfully!
+[INFO]: Shader StandardShader_GBuffer linked successfully!
+[INFO]: Shader StandardShader_Forward_VertexShader compiled successfully!
+[INFO]: Shader StandardShader_Forward_FragmentShader compiled successfully!
+[INFO]: Shader StandardShader_Forward linked successfully!
+[INFO]: Shader StandardShader_DirectionalShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardShader_DirectionalShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardShader_DirectionalShadow linked successfully!
+[INFO]: Shader StandardShader_SpotShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardShader_SpotShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardShader_SpotShadow linked successfully!
+[INFO]: Shader StandardShader_PointShadow_VertexShader compiled successfully!
+[INFO]: Shader StandardShader_PointShadow_FragmentShader compiled successfully!
+[INFO]: Shader StandardShader_PointShadow linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Native rigid body was created for node 
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native rigid body was created for node Rigid Body
+[INFO]: Native collider was created for node Collider
+[INFO]: Native collider was created for node 
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Shader BlurShader_VertexShader compiled successfully!
+[INFO]: Shader BlurShader_FragmentShader compiled successfully!
+[INFO]: Shader BlurShader linked successfully!
+[INFO]: Shader SsaoShader_VertexShader compiled successfully!
+[INFO]: Shader SsaoShader_FragmentShader compiled successfully!
+[INFO]: Shader SsaoShader linked successfully!
+[INFO]: Associated scene rendering data was re-created for scene 0:1, because render frame size was changed. Old is 800x600, new 1920x1027!
+[INFO]: Shader DecalShader_VertexShader compiled successfully!
+[INFO]: Shader DecalShader_FragmentShader compiled successfully!
+[INFO]: Shader DecalShader linked successfully!
+[INFO]: Shader AdaptationShader_VertexShader compiled successfully!
+[INFO]: Shader AdaptationShader_FragmentShader compiled successfully!
+[INFO]: Shader AdaptationShader linked successfully!
+Additional info: WARNING: Output of vertex shader 'texCoord' not read by fragment shader
+
+[INFO]: Shader LuminanceShader_VertexShader compiled successfully!
+[INFO]: Shader LuminanceShader_FragmentShader compiled successfully!
+[INFO]: Shader LuminanceShader linked successfully!
+[INFO]: Shader DownscaleShader_VertexShader compiled successfully!
+[INFO]: Shader DownscaleShader_FragmentShader compiled successfully!
+[INFO]: Shader DownscaleShader linked successfully!
+[INFO]: Shader HdrToLdrShader_VertexShader compiled successfully!
+[INFO]: Shader HdrToLdrShader_FragmentShader compiled successfully!
+[INFO]: Shader HdrToLdrShader linked successfully!
+[INFO]: Shader BloomShader_VertexShader compiled successfully!
+[INFO]: Shader BloomShader_FragmentShader compiled successfully!
+[INFO]: Shader BloomShader linked successfully!
+[INFO]: Shader GaussianBlurShader_VertexShader compiled successfully!
+[INFO]: Shader GaussianBlurShader_FragmentShader compiled successfully!
+[INFO]: Shader GaussianBlurShader linked successfully!
+[INFO]: Resource data/models/paladin/Paladin_specular.jpg destroyed because it is not used anymore!
